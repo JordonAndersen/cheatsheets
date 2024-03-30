@@ -9,21 +9,35 @@ This cheat sheet summarizes key concepts, focusing on Django project setup, Dock
    - Set environment variables, ports, and volumes for the service.
 
    **Example docker-compse.yml (at the root of your project):**
-                ```version: '3'
-                services:
-                db:
-                    image: postgres:15
-                    environment:
-                    - POSTGRES_USER=postgres
-                    - POSTGRES_PASSWORD=postgres
-                    - POSTGRES_DB=pokedex_db
-                    ports:
-                    - '5454:5432'
-                    volumes: 
-                    - postgres_data:/var/lib/postgresql/data
+      
 
-                volumes:
-                postgres_data:```
+            ```yaml
+            version: '3'
+            services:
+            db:
+               image: postgres:15
+               environment:
+                  - POSTGRES_USER=postgres
+                  - POSTGRES_PASSWORD=postgres
+                  - POSTGRES_DB=pokedex_db
+               ports:
+                  - '5454:5432'
+               volumes: 
+                  - postgres_data:/var/lib/postgresql/data
+
+            volumes:
+            postgres_data:
+            ```
+
+I've created a file named `docker-compose.yml`  with the provided configuration in YAML format. This is the standard way to define docker-compose services and volumes.
+
+
+volumes:
+  postgres_data:
+
+
+volumes:
+  postgres_data:
 
 **Using Docker Compose:**
 
