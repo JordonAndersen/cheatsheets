@@ -1,3 +1,5 @@
+## Git Cheat Sheet
+
 * **Setup**
     * `git config --global user.name "Your Name"`: Sets your name for Git commits
     * `git config --global user.email "your_email@example.com"`: Sets your email address for Git commits
@@ -35,27 +37,30 @@
 
 This is not an exhaustive list of all the Git commands, but it should give you a good starting point for learning how to use Git. For more information on Git, you can refer to the official Git documentation [https://git-scm.com/doc](https://git-scm.com/doc).
 
-Remote Repositories (Forking & Pull Requests):
+**Remote Repositories (Forking & Pull Requests):**
 
-Forking: Create a copy of a repository on your account for modifications.
-Cloning a Fork: Clone your forked repository to work on it locally.
-Pushing Changes: Use git push to upload local commits to your remote repository.
-Pull Requests: Submit proposed changes from your fork for review and merging.
-Collaboration:
+ * Forking: Create a copy of a repository on your account for modifications.
+ * Cloning a Fork: Clone your forked repository to work on it locally.
+ * Pushing Changes: Use git push to upload local commits to your remote repository.
+ * Pull Requests: Submit proposed changes from your fork for review and merging.
 
-Issues: Track bugs, feature requests, and discussions.
-Pull Requests: Collaborate on code changes through code review and comments.
-Wiki: Create collaborative knowledge base for your project.
-Markdown:
+**Collaboration:**
 
-Use Markdown for formatting text in README files, comments, and issues.
-Headers (#, ##, ###)
-Bold and italics with ** or _
-Lists with - or *
-Code blocks with ```
-...and more...
-Additional Resources:
+ * Issues: Track bugs, feature requests, and discussions.
+ * Pull Requests: Collaborate on code changes through code review and comments.
+ * Wiki: Create collaborative knowledge base for your project.
 
-Git Basics https://git-scm.com/
-GitHub Guides https://docs.github.com/
-Markdown Tutorial https://www.markdownguide.org/
+**Markdown:**
+
+***Use Markdown for formatting text in README files, comments, and issues.***
+*Headers (#, ##, ###)
+*Bold and italics with ** or _
+*Lists with - or *
+*Code blocks with ```
+*...and more...
+
+**Additional Resources:**
+
+*Git Basics https://git-scm.com/
+*GitHub Guides https://docs.github.com/
+*Markdown Tutorial https://www.markdownguide.org/

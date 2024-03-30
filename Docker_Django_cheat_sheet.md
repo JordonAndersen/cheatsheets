@@ -9,7 +9,7 @@ This cheat sheet summarizes key concepts, focusing on Django project setup, Dock
    - Set environment variables, ports, and volumes for the service.
 
    **Example docker-compse.yml (at the root of your project):**
-                version: '3'
+                ```version: '3'
                 services:
                 db:
                     image: postgres:15
@@ -23,7 +23,7 @@ This cheat sheet summarizes key concepts, focusing on Django project setup, Dock
                     - postgres_data:/var/lib/postgresql/data
 
                 volumes:
-                postgres_data:
+                postgres_data:```
 
 **Using Docker Compose:**
 
@@ -50,11 +50,11 @@ This cheat sheet summarizes key concepts, focusing on Django project setup, Dock
 1. **Use Docker Compose:** Run a PostgreSQL service as described earlier.
 2. **Configure Django settings:**
    - Set `DATABASES` in `settings.py` to specify the PostgreSQL connection details:
-     - Engine: `django.db.backends.postgresql`
-     - Host: `localhost` (or container IP for Docker Compose)
-     - Port: `5432` (default)
-     - Database name: Choose a name for your database (e.g., `pokedex_db`).
-     - User and password for the database.
+     ``` Engine: `django.db.backends.postgresql`
+         Host: `localhost` (or container IP for Docker Compose)
+         Port: `5432` (default)
+         Database name: Choose a name for your database (e.g., `pokedex_db`).
+         User and password for the database.```
 3. **Install `psycopg2`:** Use `pip install psycopg2` to install the adapter library for connecting Django to PostgreSQL.
 
 **Creating Models and Interacting with Data:**
