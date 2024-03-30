@@ -45,14 +45,14 @@ The Document Object Model (DOM) represents the structure of your HTML document. 
 ***********
 **Complex Traversal and Selection:**
 
-* **querySelector/querySelectorAll with complex selectors: Utilize advanced CSS selectors like pseudo-elements (":first-child"), attribute selectors ([attribute="value"]), and combinators (">", "~") to target specific elements within the DOM structure.
-* **closest/matches: Use element.closest("selector") to find the closest ancestor element matching the selector. element.matches("selector") checks if the element itself matches the selector.
+* querySelector/querySelectorAll with complex selectors: Utilize advanced CSS selectors like pseudo-elements (":first-child"), attribute selectors ([attribute="value"]), and combinators (">", "~") to target specific elements within the DOM structure.
+* closest/matches: Use element.closest("selector") to find the closest ancestor element matching the selector. element.matches("selector") checks if the element itself matches the selector.
 
 **DOM Manipulation with Libraries:**
 
-* **jQuery: A popular JavaScript library offering a simpler syntax for DOM manipulation. It provides functions like $(".myClass").hide() to hide all elements with the class "myClass".
+* jQuery: A popular JavaScript library offering a simpler syntax for DOM manipulation. It provides functions like $(".myClass").hide() to hide all elements with the class "myClass".
 
-* **Vanilla JS Frameworks (e.g., React, Vue.js): These libraries provide a component-based approach for building dynamic web interfaces with efficient DOM manipulation techniques.
+* Vanilla JS Frameworks (e.g., React, Vue.js): These libraries provide a component-based approach for building dynamic web interfaces with efficient DOM manipulation techniques.
 
 **Advanced Techniques:**
 
