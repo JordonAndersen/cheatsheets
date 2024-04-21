@@ -54,7 +54,7 @@ volumes:
 
 **Creating a Django Project:**
 
-1. **Start a new project:** Use `python -m django startproject <project_name>` to create a project directory.
+1. **Start a new project:** Use `python -m django startproject <project_name> .` to create a project directory. Dont forget the period
 2. **Create a Django app:** Use `python manage.py startapp <app_name>` to create an app within the project.
 3. **Register the app:** Add `<app_name>` to `INSTALLED_APPS` in `settings.py` to connect the app to the project.
 4. **Create a `requirements.txt` file:** Run `pip freeze > requirements.txt` to record project dependencies.
